@@ -4,7 +4,7 @@ A simple C# WindowsForms application demonstrating various methods for working w
 Simulation of "long background processes" is done using Task.Delay (for async processes) and Thread.Sleep (for multithreaded processes). "Background services" have a CancellationToken and can be started and stopped.
 A "log" of all processes is displayed in a TextBox. The UI is not blocked, and multiple processes can be run in parallel.
 
-![screenshot](/WinFormsTestAsync/screenshot.jpg)
+![screenshot](/WinFormsTestAsync/screenshot.png)
 
 Used methods:
 - Button Click + async Task.Delay
