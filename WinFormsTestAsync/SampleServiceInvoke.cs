@@ -11,12 +11,12 @@
             try
             {
                 await Task.Delay(5000, token);
-                Log?.Invoke("Подключено!");
+                Log?.Invoke("ServiceInvoke is started!");
 
                 while (true)
                 {
                     await Task.Delay(5000, token);
-                    string data = $"Данные от сервиса1: {DateTime.Now.ToLongTimeString()}";
+                    string data = $"Data from ServiceInvoke: {DateTime.Now.ToLongTimeString()}";
                     Log?.Invoke(data);
                 }
             }
